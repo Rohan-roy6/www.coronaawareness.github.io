@@ -1,39 +1,49 @@
-h4{
-    text-align: center;
-    font-size: 28px;
-    font-style: italic;
-    color: #ebeb23;
-}
-.rohan {
-    text-align: center;
-}
-
-.image1 {
-    text-align: center;
-    background-color: rgba(18, 18, 157, 0.75)
-}
-
-.para_1 {
-    width: 900px;
+.para_1{
+    width:1000px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: auto;
+    
 }
-.text1 {
-    text-align: right;
+h2{
+    font-family:cursive;
+    color: #5bb2b2
+}
+h1{
+    padding-top: 15px;
 }
 
 body{
     background-image: url(natural-wallpaper-green-leaf-royalty-free-66869.jpg);
-    
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center
+    background-size:cover;
     
 }
-h2{
-    font-family: cursive;
+
+
+    ul{
+        float:right;
+        list-style-type: none;
+        
+    }
+
+    ul li{
+        display: inline-block;
+    
+    }
+
+ul li a{
+    padding: 12px 25px;
+    cursor: pointer;
+    display:block;
+    color: blue:
 }
-p{
-    font-size: 19px;
+ul li a:hover{
+    color: aliceblue;
+    background-color: lawngreen;
+}
+
+
+
+.part {
+    padding-top: 100px;
 }
